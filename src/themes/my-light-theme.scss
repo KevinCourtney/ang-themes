@@ -1,0 +1,8 @@
+$themes-primary: mat-palette($mat-indigo);
+$themes-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$themes-warn: mat-palette($mat-yellow);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$themes-theme: mat-light-theme($themes-primary, $themes-accent, $themes-warn);

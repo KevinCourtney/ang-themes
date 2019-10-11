@@ -1,0 +1,6 @@
+//Dark
+$themes-dark-primary: mat-palette($mat-purple);
+$themes-dark-accent: mat-palette($mat-pink);
+$themes-dark-warn: mat-palette($mat-green);
+
+$themes-dark-theme: mat-dark-theme($themes-dark-primary, $themes-dark-accent, $themes-dark-warn);
